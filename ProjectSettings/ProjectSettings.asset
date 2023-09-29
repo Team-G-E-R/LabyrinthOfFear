@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
+<<<<<<< HEAD
   productGUID: 599c663af2c9e204485610a1b3ee3a3c
+=======
+  productGUID: fcd2588a71ea05d41ae66556a0f3e1e8
+>>>>>>> origin/master
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +17,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+<<<<<<< HEAD
   productName: house_outside
+=======
+  productName: 3daysjam
+>>>>>>> origin/master
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -47,7 +55,11 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
+<<<<<<< HEAD
   m_ActiveColorSpace: 0
+=======
+  m_ActiveColorSpace: 1
+>>>>>>> origin/master
   m_SpriteBatchVertexThreshold: 300
   m_MTRendering: 1
   mipStripping: 0
@@ -77,7 +89,11 @@ PlayerSettings:
   androidFullscreenMode: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
+<<<<<<< HEAD
   runInBackground: 1
+=======
+  runInBackground: 0
+>>>>>>> origin/master
   captureSingleScreen: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
@@ -92,7 +108,11 @@ PlayerSettings:
   resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
+<<<<<<< HEAD
   gpuSkinning: 1
+=======
+  gpuSkinning: 0
+>>>>>>> origin/master
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
   xboxEnableKinect: 0
@@ -114,7 +134,11 @@ PlayerSettings:
   xboxOneDisableEsram: 0
   xboxOneEnableTypeOptimization: 0
   xboxOnePresentImmediateThreshold: 0
+<<<<<<< HEAD
   switchQueueCommandMemory: 0
+=======
+  switchQueueCommandMemory: 1048576
+>>>>>>> origin/master
   switchQueueControlMemory: 16384
   switchQueueComputeMemory: 262144
   switchNVNShaderPoolsGranularity: 33554432
@@ -129,11 +153,19 @@ PlayerSettings:
   stadiaTargetFramerate: 0
   vulkanNumSwapchainBuffers: 3
   vulkanEnableSetSRGBWrite: 0
+<<<<<<< HEAD
   vulkanEnablePreTransform: 1
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
+=======
+  vulkanEnablePreTransform: 0
+  vulkanEnableLateAcquireNextImage: 0
+  vulkanEnableCommandBufferRecycling: 1
+  loadStoreDebugModeEnabled: 0
+  bundleVersion: 1.0
+>>>>>>> origin/master
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -153,13 +185,22 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
+<<<<<<< HEAD
   applicationIdentifier: {}
+=======
+  applicationIdentifier:
+    Standalone: com.DefaultCompany.2DProject
+>>>>>>> origin/master
   buildNumber:
     Bratwurst: 0
     Standalone: 0
     iPhone: 0
     tvOS: 0
+<<<<<<< HEAD
   overrideDefaultApplicationIdentifier: 0
+=======
+  overrideDefaultApplicationIdentifier: 1
+>>>>>>> origin/master
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 22
   AndroidTargetSdkVersion: 0
@@ -173,7 +214,11 @@ PlayerSettings:
   CreateWallpaper: 0
   APKExpansionFiles: 0
   keepLoadedShadersAlive: 0
+<<<<<<< HEAD
   StripUnusedMeshComponents: 1
+=======
+  StripUnusedMeshComponents: 0
+>>>>>>> origin/master
   strictShaderVariantMatching: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
@@ -239,8 +284,13 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
+<<<<<<< HEAD
   clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
   templatePackageId: com.unity.template.3d@8.1.1
+=======
+  clonedFromGUID: 10ad67313f4034357812315f3c407484
+  templatePackageId: com.unity.template.2d@7.0.3
+>>>>>>> origin/master
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
@@ -276,6 +326,7 @@ PlayerSettings:
   AndroidAppBundleSizeToValidate: 150
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons: []
+<<<<<<< HEAD
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
     m_StaticBatching: 1
@@ -292,11 +343,15 @@ PlayerSettings:
   - m_BuildTarget: WebGL
     m_StaticBatching: 0
     m_DynamicBatching: 0
+=======
+  m_BuildTargetBatching: []
+>>>>>>> origin/master
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs:
   - m_BuildTarget: MacStandaloneSupport
     m_GraphicsJobs: 0
   - m_BuildTarget: Switch
+<<<<<<< HEAD
     m_GraphicsJobs: 1
   - m_BuildTarget: MetroSupport
     m_GraphicsJobs: 1
@@ -314,17 +369,40 @@ PlayerSettings:
     m_GraphicsJobs: 1
   - m_BuildTarget: XboxOnePlayer
     m_GraphicsJobs: 1
+=======
+    m_GraphicsJobs: 0
+  - m_BuildTarget: MetroSupport
+    m_GraphicsJobs: 0
+  - m_BuildTarget: AppleTVSupport
+    m_GraphicsJobs: 0
+  - m_BuildTarget: BJMSupport
+    m_GraphicsJobs: 0
+  - m_BuildTarget: LinuxStandaloneSupport
+    m_GraphicsJobs: 0
+  - m_BuildTarget: PS4Player
+    m_GraphicsJobs: 0
+  - m_BuildTarget: iOSSupport
+    m_GraphicsJobs: 0
+  - m_BuildTarget: WindowsStandaloneSupport
+    m_GraphicsJobs: 0
+  - m_BuildTarget: XboxOnePlayer
+    m_GraphicsJobs: 0
+>>>>>>> origin/master
   - m_BuildTarget: LuminSupport
     m_GraphicsJobs: 0
   - m_BuildTarget: AndroidPlayer
     m_GraphicsJobs: 0
   - m_BuildTarget: WebGLSupport
     m_GraphicsJobs: 0
+<<<<<<< HEAD
   m_BuildTargetGraphicsJobMode:
   - m_BuildTarget: PS4Player
     m_GraphicsJobMode: 0
   - m_BuildTarget: XboxOnePlayer
     m_GraphicsJobMode: 0
+=======
+  m_BuildTargetGraphicsJobMode: []
+>>>>>>> origin/master
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
     m_APIs: 150000000b000000
@@ -332,6 +410,7 @@ PlayerSettings:
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
+<<<<<<< HEAD
   - m_BuildTarget: AppleTVSupport
     m_APIs: 10000000
     m_Automatic: 1
@@ -344,6 +423,9 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
+=======
+  m_BuildTargetVRSettings: []
+>>>>>>> origin/master
   m_DefaultShaderChunkSizeInMB: 16
   m_DefaultShaderChunkCount: 0
   openGLRequireES31: 0
@@ -354,6 +436,7 @@ PlayerSettings:
     Android: 1
     iPhone: 1
     tvOS: 1
+<<<<<<< HEAD
   m_BuildTargetGroupLightmapEncodingQuality:
   - m_BuildTarget: Android
     m_EncodingQuality: 1
@@ -377,6 +460,13 @@ PlayerSettings:
     m_Encoding: 1
   - m_BuildTarget: tvOS
     m_Encoding: 1
+=======
+  m_BuildTargetGroupLightmapEncodingQuality: []
+  m_BuildTargetGroupHDRCubemapEncodingQuality: []
+  m_BuildTargetGroupLightmapSettings: []
+  m_BuildTargetGroupLoadStoreDebugModeSettings: []
+  m_BuildTargetNormalMapEncoding: []
+>>>>>>> origin/master
   m_BuildTargetDefaultTextureCompressionFormat:
   - m_BuildTarget: Android
     m_Format: 3
@@ -529,7 +619,11 @@ PlayerSettings:
   switchSocketInitializeEnabled: 1
   switchNetworkInterfaceManagerInitializeEnabled: 1
   switchPlayerConnectionEnabled: 1
+<<<<<<< HEAD
   switchUseNewStyleFilepaths: 1
+=======
+  switchUseNewStyleFilepaths: 0
+>>>>>>> origin/master
   switchUseLegacyFmodPriorities: 0
   switchUseMicroSleepForYield: 1
   switchEnableRamDiskSupport: 0
@@ -566,7 +660,11 @@ PlayerSettings:
   ps4RemotePlayKeyAssignment: -1
   ps4RemotePlayKeyMappingDir: 
   ps4PlayTogetherPlayerCount: 0
+<<<<<<< HEAD
   ps4EnterButtonAssignment: 1
+=======
+  ps4EnterButtonAssignment: 2
+>>>>>>> origin/master
   ps4ApplicationParam1: 0
   ps4ApplicationParam2: 0
   ps4ApplicationParam3: 0
@@ -575,7 +673,11 @@ PlayerSettings:
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
   playerPrefsMaxSize: 32768
+<<<<<<< HEAD
   ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
+=======
+  ps4Passcode: bi9UOuSpM2Tlh01vOzwvSikHFswuzleh
+>>>>>>> origin/master
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -589,7 +691,11 @@ PlayerSettings:
   ps4UseAudio3dBackend: 0
   ps4UseLowGarlicFragmentationMode: 1
   ps4SocialScreenEnabled: 0
+<<<<<<< HEAD
   ps4ScriptOptimizationLevel: 0
+=======
+  ps4ScriptOptimizationLevel: 2
+>>>>>>> origin/master
   ps4Audio3dVirtualSpeakerCount: 14
   ps4attribCpuUsage: 0
   ps4PatchPkgPath: 
@@ -615,7 +721,11 @@ PlayerSettings:
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
+<<<<<<< HEAD
   webGLMemorySize: 16
+=======
+  webGLMemorySize: 32
+>>>>>>> origin/master
   webGLExceptionSupport: 1
   webGLNameFilesAsHashes: 0
   webGLShowDiagnostics: 0
@@ -626,7 +736,11 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
+<<<<<<< HEAD
   webGLCompressionFormat: 1
+=======
+  webGLCompressionFormat: 0
+>>>>>>> origin/master
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
@@ -670,14 +784,22 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
+<<<<<<< HEAD
   metroPackageName: house_outside
+=======
+  metroPackageName: 3daysjam
+>>>>>>> origin/master
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
+<<<<<<< HEAD
   metroApplicationDescription: house_outside
+=======
+  metroApplicationDescription: 3daysjam
+>>>>>>> origin/master
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -725,8 +847,12 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
+<<<<<<< HEAD
   cloudServicesEnabled:
     UNet: 1
+=======
+  cloudServicesEnabled: {}
+>>>>>>> origin/master
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
