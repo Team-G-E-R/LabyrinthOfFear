@@ -1277,7 +1277,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8757809853898035415}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b6e0fa4658df1844a664e3a1e73b7a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 986043c7aee07bc4ea03078969b0716b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _soundVolume: {fileID: 6055065231884123020}
