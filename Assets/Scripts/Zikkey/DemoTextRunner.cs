@@ -1,6 +1,5 @@
 using UnityEngine;
 
-#if UNITY_EDITOR
 [RequireComponent(typeof(DynamicText))]
 public class DemoTextRunner : MonoBehaviour
 {
@@ -11,4 +10,3 @@ public class DemoTextRunner : MonoBehaviour
         GetComponent<DynamicText>().ChangeText(_testText);    
     }
 }
-#endif
