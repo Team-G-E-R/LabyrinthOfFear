@@ -9,6 +9,7 @@ public class CameraScript : MonoBehaviour
     [SerializeField] float rightCameraLimit;
     [SerializeField] float lowerCameraLimit;
     [SerializeField] float upperCameraLimit;
+    public float Zpos = -20;
     private Vector2 posOffSet;
     private Vector3 velocity;
 
@@ -31,7 +32,7 @@ public class CameraScript : MonoBehaviour
         Vector3 endPos = player.transform.position;
         endPos.x += posOffSet.x;
         endPos.y += posOffSet.y;
-        endPos.z = -30;
+        endPos.z = Zpos;
         transform.position = Vector3.SmoothDamp(startPos, endPos, ref velocity, timeOffSet);
 
         transform.position = new Vector3
