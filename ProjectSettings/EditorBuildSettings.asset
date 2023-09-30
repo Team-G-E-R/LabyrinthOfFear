@@ -4,11 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Test/Zolotushka/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Cospero/TestView.unity
-    guid: 62504f4ad757c864d915fcffb112f049
+  m_Scenes: []
   m_configObjects: {}
