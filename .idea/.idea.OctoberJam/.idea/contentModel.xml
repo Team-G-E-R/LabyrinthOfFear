@@ -27,6 +27,7 @@
           <e p="Prefabs" t="Include">
             <e p="Audio" t="Include" />
             <e p="Common" t="Include" />
+            <e p="Other" t="Include" />
             <e p="Player" t="Include" />
             <e p="UI" t="Include" />
             <e p="Zolotushka" t="Include">
@@ -42,11 +43,18 @@
         </e>
         <e p="ScriptableObjects" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Camera" t="Include">
+            <e p="CameraMenuMovement.cs" t="Include" />
+          </e>
           <e p="Infrastruct" t="Include">
             <e p="AssetsPath.cs" t="Include" />
             <e p="GameBootstraper.cs" t="Include" />
             <e p="GameFactory.cs" t="Include" />
             <e p="LoadLevel.cs" t="Include" />
+            <e p="Menu" t="Include">
+              <e p="RoomSpawner.cs" t="Include" />
+              <e p="StartMenu.cs" t="Include" />
+            </e>
             <e p="SceneLoader.cs" t="Include" />
             <e p="Services" t="Include">
               <e p="AllServices.cs" t="Include" />
@@ -55,7 +63,6 @@
               <e p="IAudioService.cs" t="Include" />
               <e p="IService.cs" t="Include" />
             </e>
-            <e p="StartMenu.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
             <e p="Player.cs" t="Include" />
