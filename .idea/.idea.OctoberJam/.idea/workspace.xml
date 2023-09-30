@@ -20,9 +20,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Infostruct/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Infostruct/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Infrastruct/Game.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastruct/StartMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastruct/GameBootstraper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/LoadingCurtine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastruct/GameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastruct/Services/IAudioService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastruct/Services/AudioService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastruct/GameBootstraper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastruct/AssetsPath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastruct/StartMenu.cs" />
       </list>
     </option>
   </component>
@@ -65,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696012063149</updated>
-      <workItem from="1696012082271" duration="6147000" />
+      <workItem from="1696012082271" duration="11218000" />
     </task>
     <servers />
   </component>
@@ -78,9 +82,17 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="185" key="run.anything.popup" timestamp="1696013611482">
+    <state x="26" y="141" width="700" height="530" key="recent.locations.popup" timestamp="1696054287141">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1696013611482" />
+    <state x="26" y="141" width="700" height="530" key="recent.locations.popup/0.0.1536.816@0.0.1536.816" timestamp="1696054287141" />
+    <state x="425" y="185" key="run.anything.popup" timestamp="1696053706908">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1696053706908" />
+    <state x="430" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1696053784766">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="430" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1696053784766" />
   </component>
 </project>

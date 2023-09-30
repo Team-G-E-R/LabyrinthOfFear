@@ -15,6 +15,7 @@
             </e>
             <e p="Zolotushka" t="Include" />
           </e>
+          <e p="UI" t="Include" />
         </e>
         <e p="Cutscenes" t="Include">
           <e p="Triggers" t="Include" />
@@ -24,7 +25,9 @@
         <e p="Music" t="Include" />
         <e p="Resources" t="Include">
           <e p="Prefabs" t="Include">
+            <e p="Audio" t="Include" />
             <e p="Common" t="Include" />
+            <e p="Player" t="Include" />
             <e p="UI" t="Include" />
             <e p="Zolotushka" t="Include">
               <e p="Fog" t="Include" />
@@ -45,6 +48,13 @@
             <e p="GameFactory.cs" t="Include" />
             <e p="LoadLevel.cs" t="Include" />
             <e p="SceneLoader.cs" t="Include" />
+            <e p="Services" t="Include">
+              <e p="AllServices.cs" t="Include" />
+              <e p="AudioService.cs" t="Include" />
+              <e p="FromServiceBindGeneric.cs" t="Include" />
+              <e p="IAudioService.cs" t="Include" />
+              <e p="IService.cs" t="Include" />
+            </e>
             <e p="StartMenu.cs" t="Include" />
           </e>
           <e p="Player" t="Include">

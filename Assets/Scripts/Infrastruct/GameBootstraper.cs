@@ -2,12 +2,34 @@ using UnityEngine;
 
 public class GameBootstraper : MonoBehaviour
 {
-    [SerializeField] private StartMenu _startMenu;
     private GameFactory _gameFactory;
+    private AllServices _allServices;
 
     private void Awake()
     {
         _gameFactory = new GameFactory();
-        _startMenu.Construct(_gameFactory);
+        _allServices = new AllServices();
+
+        AudioService audioService = InstantiateAudioService();
+        RegisterAudioService(audioService);
+        
+        StartMenu startMenu = _gameFactory
+            .CreateStartMenu()
+            .GetComponent<StartMenu>();
+        startMenu.Construct(_gameFactory, audioService);
+    }
+
+    private AudioService InstantiateAudioService()
+    {
+        return _gameFactory
+            .Instantiate(AssetsPath.AudioService)
+            .GetComponent<AudioService>();
+    }
+
+    private void RegisterAudioService(AudioService audioService)
+    {
+        _allServices
+            .RegisterSingle<IAudioService>()
+            .To<AudioService>(audioService);
     }
 }
