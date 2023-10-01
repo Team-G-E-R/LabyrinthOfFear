@@ -1,10 +1,12 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class DynamicText : MonoBehaviour
 {
     [SerializeField] private KeyCode _next = KeyCode.E;
     [SerializeField] private TMPro.TMP_Text _output;
+    [SerializeField] private PlayableDirector director;
 
     private TextInstance _currentText;
     private int _currentChar = 0;
@@ -25,7 +27,11 @@ public class DynamicText : MonoBehaviour
         if (_currentText.Next != null)
             ChangeText(_currentText.Next);
         else
+        {
+            director = GetComponent<PlayableDirector>();
+            director.Play();
             ClearState();
+        }
     }
 
     public void ChangeText(TextInstance text)

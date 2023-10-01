@@ -9,9 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f676638a3293a754f8380a20663579ea, type: 3}
-  m_Name: _Text1
+  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+  m_Name: 1st
   m_EditorClassIdentifier: 
-  Data: "\u0422\u043E\u0442\u0430\u043B\u044C\u043D\u044B\u0439 \u0444\u0438\u0434!"
-  ChangeSpeed: 0.5
-  Next: {fileID: 11400000, guid: 971c8e303b74c9b409940d6462e16490, type: 2}
+  m_Version: 0
+  m_Tracks: []
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
