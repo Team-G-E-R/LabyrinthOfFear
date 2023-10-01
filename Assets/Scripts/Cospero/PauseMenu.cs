@@ -10,6 +10,7 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] KeyCode KeyToActivateMenu;
     [SerializeField] int mainMenuSceneIndex;
 
+
     private void Start ()
     {
         pauseMenu.SetActive(false);
