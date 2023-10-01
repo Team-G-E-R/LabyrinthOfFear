@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,30 +24,28 @@ public class NoteManager : MonoBehaviour
     {
         FnotePanalUI.SetActive(false);
         SnotePanalUI.SetActive(false);
-        
     }
 
-    public void FirstStageOpen(string textNote, Sprite Image )
+    public void FirstStageOpen(string textNote, Sprite Image)
     {
+        Image FirstPanelImg=FnotePanalUI.GetComponent<Image>();
+        FirstPanelImg.color = new Color(FirstPanelImg.color.r, FirstPanelImg.color.g, FirstPanelImg.color.b, 0);
         Time.timeScale=0f;
+        readButtonUI.SetActive(true);
         InterractIcon.SetActive(false);
         FnotePanalUI.SetActive(true);
         noteImageUI.sprite=Image;
         noteTextUI.text=textNote;
-        Image FirstPanelImg=FnotePanalUI.GetComponent<Image>();
         StartCoroutine(FadeInCrt(FirstPanelImg,FadeValue1));
         Debug.Log("k");
-
     }
 
     public void SecondStageOpen()
     {
-        
         SnotePanalUI.SetActive(true);
         readButtonUI.SetActive(false);
         Image SecondPanelImg=SnotePanalUI.GetComponent<Image>();
         StartCoroutine(FadeInCrt(SecondPanelImg,FadeValue2));
-        
     }
 
     public void CloseNote()
@@ -55,12 +54,7 @@ public class NoteManager : MonoBehaviour
         InterractIcon.SetActive(true);
         FnotePanalUI.SetActive(false);
         SnotePanalUI.SetActive(false);
-        
     }
-
-   
-
-  
 
     private IEnumerator FadeInCrt(Image noteImageUI, float FadeValue)
     {
