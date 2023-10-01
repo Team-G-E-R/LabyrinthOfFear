@@ -29,6 +29,9 @@ public class LoadLevel
     private void OnLoaded()
     {
         //InitGameWorld();
+        var audioService = AllServices.Singleton.Single<IAudioService>();
+        audioService.AudioSource.clip = Resources.Load<AudioClip>("Prefabs/Music/ambient_final");
+        audioService.AudioSource.Play();
         _loadingCurtain.Hide();
         _sceneLoader.ChangeProgress -= OnChangeProgress;
     }

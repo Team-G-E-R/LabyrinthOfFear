@@ -819,8 +819,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 118.3, y: 34.5}
-  m_SizeDelta: {x: 207.5764, y: 26.638596}
+  m_AnchoredPosition: {x: 131.16809, y: 34.5}
+  m_SizeDelta: {x: 233.3126, y: 26.6386}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6055065231884123020
 MonoBehaviour:
@@ -869,7 +869,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0.6
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1145,3 +1145,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _soundVolume: {fileID: 6055065231884123020}
+  _startMenuSound: {fileID: 8300000, guid: 75496a2209fd5a04d917beffa1092e13, type: 3}

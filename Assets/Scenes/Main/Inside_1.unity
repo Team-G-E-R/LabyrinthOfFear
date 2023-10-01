@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SubtractiveShadowColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -3510,15 +3510,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1031379335665379387, guid: d96143106b0347942b570c59208db961, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.258996
+      value: 44.792
       objectReference: {fileID: 0}
     - target: {fileID: 1031379335665379387, guid: d96143106b0347942b570c59208db961, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.072557926
+      value: -0.293
       objectReference: {fileID: 0}
     - target: {fileID: 1031379335665379387, guid: d96143106b0347942b570c59208db961, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.056414
+      value: -5.509
       objectReference: {fileID: 0}
     - target: {fileID: 1031379335665379387, guid: d96143106b0347942b570c59208db961, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3559,6 +3559,10 @@ PrefabInstance:
     - target: {fileID: 2778184392999998588, guid: d96143106b0347942b570c59208db961, type: 3}
       propertyPath: sprintSpeedBonus
       value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360195965183923410, guid: d96143106b0347942b570c59208db961, type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
