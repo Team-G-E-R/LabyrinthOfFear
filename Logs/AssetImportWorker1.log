@@ -401,3 +401,163 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5339.923118 seconds.
+  path: Assets/Scenes/Main/Inside_1.unity
+  artifactKey: Guid(479a8bc0dfe26c741ac421fc3fafd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main/Inside_1.unity using Guid(479a8bc0dfe26c741ac421fc3fafd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0e7914ec96c383e63c17329e29f436') in 0.001658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.767587 seconds.
+  path: Assets/Scenes/Main/Inside_1 1.unity
+  artifactKey: Guid(509fddc6afe634747a20995761360cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main/Inside_1 1.unity using Guid(509fddc6afe634747a20995761360cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2927fc09ae5b6dd74356c0c0dd918474') in 0.000407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.569305 seconds.
+  path: Assets/Scenes/Main/Main_2.unity
+  artifactKey: Guid(509fddc6afe634747a20995761360cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main/Main_2.unity using Guid(509fddc6afe634747a20995761360cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ade947f0672148c763ddc031fa7a5d') in 0.000402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.699375 seconds.
+  path: Assets/Scenes/Main/Main_1.unity
+  artifactKey: Guid(479a8bc0dfe26c741ac421fc3fafd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main/Main_1.unity using Guid(479a8bc0dfe26c741ac421fc3fafd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c0a5320f6b4adb96fb55ffb2c60208') in 0.000476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.187891 seconds.
+  path: Assets/Materials/House_inside_materials/Door_test.mat
+  artifactKey: Guid(4fd0fa1360d1b9d4a892b3af6cad430c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_inside_materials/Door_test.mat using Guid(4fd0fa1360d1b9d4a892b3af6cad430c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85199c227af362e378f563ae3d1f2aa5') in 0.050890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.028404 seconds.
+  path: Assets/Materials/House_inside_materials/Materials
+  artifactKey: Guid(ed8f16063a8c0b6479f5d5acaf859860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_inside_materials/Materials using Guid(ed8f16063a8c0b6479f5d5acaf859860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ba7fa7aefff323b705e87fade5fe29') in 0.000356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.049645 seconds.
+  path: Assets/Materials/House_inside_materials/Materials/Floor.mat
+  artifactKey: Guid(687e198347377454ca4d378ab03686ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_inside_materials/Materials/Floor.mat using Guid(687e198347377454ca4d378ab03686ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a556c83a1493fd13bbb70c264903da9') in 0.013001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.663371 seconds.
+  path: Assets/Materials/House_outside_materials
+  artifactKey: Guid(88ab18d5ce2b7a64685383dc3875c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_outside_materials using Guid(88ab18d5ce2b7a64685383dc3875c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e8880030726b9acb1c930688e35eb5') in 0.000414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.418671 seconds.
+  path: Assets/Materials/House_outside_materials/Door_test.mat
+  artifactKey: Guid(e92dd226d457c5044900e25001a8d308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_outside_materials/Door_test.mat using Guid(e92dd226d457c5044900e25001a8d308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f401764df0fa82d71e0d3a9c3bda56') in 0.010746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Materials/House_outside_materials/fenc_test.mat
+  artifactKey: Guid(033603219821f644e9f52a56dd4613a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_outside_materials/fenc_test.mat using Guid(033603219821f644e9f52a56dd4613a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ad79d9fcd18a8bb374be13b57582e3') in 0.042060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Materials/House_outside_materials/grass_test(1).png
+  artifactKey: Guid(20893eb4e467c3346bb6e765ca06f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_outside_materials/grass_test(1).png using Guid(20893eb4e467c3346bb6e765ca06f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11c6eb45b9df1d938acef37d84a2fa1') in 0.015921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/House_outside_materials/pavement_test1.png
+  artifactKey: Guid(26101a4e5d7c3d744baa495bfb3fed67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_outside_materials/pavement_test1.png using Guid(26101a4e5d7c3d744baa495bfb3fed67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10689afbe80dbefb667ec65e00065cb') in 0.009516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/House_outside_materials/rock_walkway_test.png
+  artifactKey: Guid(7ce29f5bddba1e842abc259fbdede112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_outside_materials/rock_walkway_test.png using Guid(7ce29f5bddba1e842abc259fbdede112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601b085818c3df4ea049429308d78294') in 0.009234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/House_outside_materials/window_test.png
+  artifactKey: Guid(4d0609d3206d29c4b9dbf480cc643ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_outside_materials/window_test.png using Guid(4d0609d3206d29c4b9dbf480cc643ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312713d0598e9d4bba72207707906fa1') in 0.009278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Materials/House_outside_materials/window_test1.mat
+  artifactKey: Guid(66d5c6834821d2a4381be17aa33aa2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_outside_materials/window_test1.mat using Guid(66d5c6834821d2a4381be17aa33aa2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e19403a9362c2438b54448ce55324ed') in 0.017955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/House_outside_materials/house_test_out.mat
+  artifactKey: Guid(5a8c57542543c704ebdb3d6e7dd6d1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_outside_materials/house_test_out.mat using Guid(5a8c57542543c704ebdb3d6e7dd6d1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b2a2ee1d9bad8ab2fca1ba124b3125') in 0.009781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Materials/House_outside_materials/rock_walkway.mat
+  artifactKey: Guid(811739714f1f27e4e962f237b21316be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_outside_materials/rock_walkway.mat using Guid(811739714f1f27e4e962f237b21316be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9a1463b46ecb2aea1c95ed18afd4da') in 0.009401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Materials/House_outside_materials/pavement_mat.mat
+  artifactKey: Guid(8bdd81a8a2a7a384d8a466cde2d597c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_outside_materials/pavement_mat.mat using Guid(8bdd81a8a2a7a384d8a466cde2d597c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31b73f37e6b5204a09bc97c4941602f') in 0.009247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.595386 seconds.
+  path: Assets/Materials/House_outside_materials/Materials
+  artifactKey: Guid(84351e020cedfae4d8acdebca1a4e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_outside_materials/Materials using Guid(84351e020cedfae4d8acdebca1a4e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a90254fb10fb04aeb00762d0414eac0') in 0.000371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.035060 seconds.
+  path: Assets/Materials/House_outside_materials/Materials/door_test.mat
+  artifactKey: Guid(4072c49c773ce354e8e70db837d91d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/House_outside_materials/Materials/door_test.mat using Guid(4072c49c773ce354e8e70db837d91d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312fe2ca37b790baa9e3e5d27d4f2447') in 0.012514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
