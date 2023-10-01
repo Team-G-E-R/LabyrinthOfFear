@@ -11,11 +11,11 @@ namespace Common.Scripts
 
         #endregion
 
-
         #region Inspector
 
-        [SerializeField]
-        private float speed = 2f;
+        [SerializeField] private KeyCode _sprintKey = KeyCode.LeftShift;
+        [SerializeField] private float speed = 100f;
+        [SerializeField] private float sprintSpeedBonus = 50f;
 
         [Header("Relations")]
         [SerializeField]
@@ -33,6 +33,8 @@ namespace Common.Scripts
         #region Fields
 
         private Vector3 _movement;
+        private bool _movementLocked;
+        private bool _sprintLocked;
 
         #endregion
 
@@ -41,34 +43,28 @@ namespace Common.Scripts
 
         private void Update()
         {
-            // Vertical
-            float inputY = 0;
-            if (Input.GetKey(KeyCode.UpArrow))
-                inputY = 1;
-            else if (Input.GetKey(KeyCode.DownArrow))
-                inputY = -1;
+            float vertical = Input.GetAxisRaw("Vertical");
+            float horizontal = Input.GetAxisRaw("Horizontal");
 
-            // Horizontal
-            float inputX = 0;
-            if (Input.GetKey(KeyCode.RightArrow))
-            {
-                inputX = 1;
+            if (horizontal > 0)
                 spriteRenderer.flipX = false;
-            }
-            else if (Input.GetKey(KeyCode.LeftArrow))
-            {
-                inputX = -1;
+            else if (horizontal < 0)
                 spriteRenderer.flipX = true;
-            }
 
-            // Normalize 
-            _movement = new Vector3(inputX, 0, inputY).normalized;
+            _movement = new Vector3(horizontal, 0, vertical).normalized;
         }
 
         private void FixedUpdate()
         {
-            physicsBody.velocity = _movement * speed;
+            if (_movementLocked)
+                return;
+
+            float sprint = _sprintLocked == false && Input.GetKey(_sprintKey) ? sprintSpeedBonus : 0;
+            physicsBody.velocity = _movement * (speed + sprint) * Time.fixedDeltaTime;
         }
+
+        public void SetSprint(bool sprint) => _sprintLocked = !sprint;
+        public void SetWalk(bool walk) => _movementLocked = !walk;
 
         #endregion
     }

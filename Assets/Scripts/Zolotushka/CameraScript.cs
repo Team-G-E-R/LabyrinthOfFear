@@ -26,7 +26,7 @@ public class CameraScript : MonoBehaviour
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Vector3 startPos = transform.position;
         Vector3 endPos = player.transform.position;
