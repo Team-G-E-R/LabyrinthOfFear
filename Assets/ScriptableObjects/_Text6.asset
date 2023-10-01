@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: _Text6
   m_EditorClassIdentifier: 
   Data: "\u0425\u0430-\u0445\u0430! \u041E\u043D \u043F\u0440\u043E\u0438\u0433\u0440\u0430\u043B!"
-  ChangeSpeed: 0.1
+  ChangeSpeed: 0.05
   Next: {fileID: 0}

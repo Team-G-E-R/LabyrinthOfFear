@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Common.Scripts;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
@@ -11,6 +12,7 @@ public class CutsceneScripts : MonoBehaviour
     [SerializeField] private GameObject Active;
     [SerializeField] private GameObject ActiveText;
     [SerializeField] private string SceneToLoad;
+    [SerializeField] private PlayableDirector _director;
     public void StopAnim()
     {
         Active.SetActive(false);
@@ -30,5 +32,10 @@ public class CutsceneScripts : MonoBehaviour
     public void LoadingScene()
     {
         SceneManager.LoadScene(SceneToLoad);
+    }
+
+    public void DirectorOn()
+    {
+        _director.Play();
     }
 }
