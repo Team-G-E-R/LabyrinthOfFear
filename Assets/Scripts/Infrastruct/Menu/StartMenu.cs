@@ -18,7 +18,7 @@ public class StartMenu : MonoBehaviour
     }
 
     public void StartGame() => 
-        _loadLevel.EnterLevel("TestView");
+        _loadLevel.EnterLevel("House_outside");
 
     public void ExitGame() => 
         Application.Quit();

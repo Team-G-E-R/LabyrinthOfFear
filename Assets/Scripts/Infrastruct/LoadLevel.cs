@@ -28,7 +28,7 @@ public class LoadLevel
 
     private void OnLoaded()
     {
-        InitGameWorld();
+        //InitGameWorld();
         _loadingCurtain.Hide();
         _sceneLoader.ChangeProgress -= OnChangeProgress;
     }
