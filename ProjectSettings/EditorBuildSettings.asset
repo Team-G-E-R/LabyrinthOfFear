@@ -6,11 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Test/Zolotushka/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Main/Inside_2.unity
-    guid: 479a8bc0dfe26c741ac421fc3fafd9a5
+    path: Assets/Scenes/Main/Menu.unity
+    guid: 5522ae8332100e34c87bb67ac3bb9540
   - enabled: 1
     path: Assets/Scenes/Main/House_outside.unity
     guid: 458543b57c85bdb43bec60f60da9617b

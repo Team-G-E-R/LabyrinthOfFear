@@ -5595,8 +5595,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprintKey: 304
-  speed: 15
-  sprintSpeedBonus: 50
+  speed: 100
+  sprintSpeedBonus: 150
   animator: {fileID: 0}
   physicsBody: {fileID: 1084659670}
   spriteRenderer: {fileID: 1084659671}
@@ -7055,6 +7055,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9034848757144897428, guid: debe8b1b0d26e734e8ffa632563efd99, type: 3}
+      propertyPath: m_Name
+      value: Particle System (FOG) (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 7191530565041739113, guid: ebd7fbdcf58e10741b5ecfd6328f4eb8, type: 3}
       propertyPath: ShapeModule.m_Scale.x
       value: 3
@@ -7070,10 +7074,6 @@ PrefabInstance:
     - target: {fileID: 7191530565041739113, guid: ebd7fbdcf58e10741b5ecfd6328f4eb8, type: 3}
       propertyPath: ShapeModule.radius.value
       value: 1.8947513
-      objectReference: {fileID: 0}
-    - target: {fileID: 9034848757144897428, guid: debe8b1b0d26e734e8ffa632563efd99, type: 3}
-      propertyPath: m_Name
-      value: Particle System (FOG) (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7132,6 +7132,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9034848757144897428, guid: debe8b1b0d26e734e8ffa632563efd99, type: 3}
+      propertyPath: m_Name
+      value: Particle System (FOG) (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7191530565041739113, guid: ebd7fbdcf58e10741b5ecfd6328f4eb8, type: 3}
       propertyPath: ShapeModule.m_Scale.x
       value: 3
@@ -7147,10 +7151,6 @@ PrefabInstance:
     - target: {fileID: 7191530565041739113, guid: ebd7fbdcf58e10741b5ecfd6328f4eb8, type: 3}
       propertyPath: ShapeModule.radius.value
       value: 1.8947513
-      objectReference: {fileID: 0}
-    - target: {fileID: 9034848757144897428, guid: debe8b1b0d26e734e8ffa632563efd99, type: 3}
-      propertyPath: m_Name
-      value: Particle System (FOG) (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7891,6 +7891,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9034848757144897428, guid: debe8b1b0d26e734e8ffa632563efd99, type: 3}
+      propertyPath: m_Name
+      value: Particle System (FOG)
+      objectReference: {fileID: 0}
     - target: {fileID: 7191530565041739113, guid: ebd7fbdcf58e10741b5ecfd6328f4eb8, type: 3}
       propertyPath: ShapeModule.m_Scale.x
       value: 3
@@ -7906,10 +7910,6 @@ PrefabInstance:
     - target: {fileID: 7191530565041739113, guid: ebd7fbdcf58e10741b5ecfd6328f4eb8, type: 3}
       propertyPath: ShapeModule.radius.value
       value: 1.8947513
-      objectReference: {fileID: 0}
-    - target: {fileID: 9034848757144897428, guid: debe8b1b0d26e734e8ffa632563efd99, type: 3}
-      propertyPath: m_Name
-      value: Particle System (FOG)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
