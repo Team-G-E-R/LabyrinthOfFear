@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8267315334159258951
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2393864482938689905, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: _targetSceneName
+      value: Inside_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2406519075825548996, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_Name
+      value: Full_door_TEST2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067338898161682172, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.938
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067338898161682172, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.483
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7888245599874800603, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4085574483349199248}
+  m_SourcePrefab: {fileID: 100100000, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+--- !u!1 &2288896145681845916 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7888245599874800603, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+  m_PrefabInstance: {fileID: 8267315334159258951}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4085574483349199248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2288896145681845916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a08e09d299f5874499d535b085ed297, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2393864482938689905, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+        m_TargetAssemblyTypeName: SetLevel, Assembly-CSharp
+        m_MethodName: SetPlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
