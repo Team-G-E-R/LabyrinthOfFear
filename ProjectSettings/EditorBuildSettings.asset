@@ -11,4 +11,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main/House_outside.unity
     guid: 458543b57c85bdb43bec60f60da9617b
+  - enabled: 1
+    path: Assets/Scenes/Main/Inside_1.unity
+    guid: feab10b9665cc1d4489f3350b0aff486
+  - enabled: 1
+    path: Assets/Scenes/Main/Inside_2.unity
+    guid: 479a8bc0dfe26c741ac421fc3fafd9a5
+  - enabled: 1
+    path: Assets/Scenes/Main/Inside_3.unity
+    guid: 509fddc6afe634747a20995761360cc0
+  - enabled: 1
+    path: Assets/Scenes/Main/Inside_4.unity
+    guid: 550e2562fc4fe744db4c800c80368e3b
+  - enabled: 1
+    path: Assets/Scenes/Main/Inside_5.unity
+    guid: 56878a2b1518d8449bd51c690e1af4f7
+  - enabled: 1
+    path: Assets/Scenes/Test/Zolotushka/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
