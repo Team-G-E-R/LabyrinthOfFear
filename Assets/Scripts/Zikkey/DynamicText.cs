@@ -28,9 +28,15 @@ public class DynamicText : MonoBehaviour
             ChangeText(_currentText.Next);
         else
         {
-            director = GetComponent<PlayableDirector>();
-            director.Play();
             ClearState();
+            if (director != null)
+            {
+                director.Play();
+            }
+            else
+            {
+                Debug.Log("Where is director?");
+            }
         }
     }
 
@@ -56,7 +62,7 @@ public class DynamicText : MonoBehaviour
 
     private void ClearState()
     {
-        _output.text = string.Empty;
+        _output.text = null;
         _currentChar = 0;
     }
 }
