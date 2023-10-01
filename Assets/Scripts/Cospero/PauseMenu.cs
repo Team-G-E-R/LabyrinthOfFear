@@ -32,12 +32,12 @@ public class PauseMenu : MonoBehaviour
         if (isMenuActive)
         {
                 pauseMenu.SetActive(true);
-                Time.timeScale=0f;
+                Time.timeScale = 0f;
         }
         else
         {
                 pauseMenu.SetActive(false);
-                Time.timeScale=1f;
+                Time.timeScale = 1f;
         }
     }
 
@@ -49,5 +49,6 @@ public class PauseMenu : MonoBehaviour
     public void mainMenuButton()
     {
         SceneManager.LoadScene(mainMenuSceneIndex);
+        Time.timeScale = 1f;
     }
 }
