@@ -561,3 +561,72 @@ Received Import Request.
 Start importing Assets/Materials/House_outside_materials/Materials/door_test.mat using Guid(4072c49c773ce354e8e70db837d91d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312fe2ca37b790baa9e3e5d27d4f2447') in 0.012514 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2422.673710 seconds.
+  path: Assets/Materials/3d_animations/Frame_1.mat
+  artifactKey: Guid(9dcd227fd8f4eed46b707cf75262ff9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/3d_animations/Frame_1.mat using Guid(9dcd227fd8f4eed46b707cf75262ff9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f1f1767f208c1a12b274054cad36d6') in 0.013318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006033 seconds.
+  path: Assets/Materials/3d_animations/Frame_2.mat
+  artifactKey: Guid(f1435c3925b18e346bf6f6f496052226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/3d_animations/Frame_2.mat using Guid(f1435c3925b18e346bf6f6f496052226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4027d8f111ccb719abb0c0a2cd3c60b7') in 0.015064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Materials/3d_animations/Frame_6.mat
+  artifactKey: Guid(dea432deefd613248a84ebd78fdfc17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/3d_animations/Frame_6.mat using Guid(dea432deefd613248a84ebd78fdfc17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f286f411e1dad3e83e6662bef6b95f6a') in 0.014665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/3d_animations/Sprite-0015.png
+  artifactKey: Guid(cf1e748d564b7604eb4312adb8940f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/3d_animations/Sprite-0015.png using Guid(cf1e748d564b7604eb4312adb8940f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba39c870340054a240970c092c29dca') in 0.010259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Materials/3d_animations/Sprite-0011.png
+  artifactKey: Guid(82c266050ec490d49bf6dcb30d426973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/3d_animations/Sprite-0011.png using Guid(82c266050ec490d49bf6dcb30d426973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b839bab5ac2e5a6762fa3e4133ea849') in 0.009024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/3d_animations/Sprite-0014.png
+  artifactKey: Guid(a3be6006fb60b794c9f59add3056872e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/3d_animations/Sprite-0014.png using Guid(a3be6006fb60b794c9f59add3056872e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee12930e77066c8d1f6607dbaeab954') in 0.011353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/3d_animations/Frame_8.mat
+  artifactKey: Guid(293e612b8f86833498475fb3bf8add3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/3d_animations/Frame_8.mat using Guid(293e612b8f86833498475fb3bf8add3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ad4c448a9b38d7c7e3b2bb6412fbc9') in 0.010252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Materials/3d_animations/Sprite-0013.png
+  artifactKey: Guid(6237a1ac65b0d36409299f593585a501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/3d_animations/Sprite-0013.png using Guid(6237a1ac65b0d36409299f593585a501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87141bc1d0bc131c85a5344526ee6e3e') in 0.009996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
