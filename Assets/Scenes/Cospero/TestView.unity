@@ -156,6 +156,7 @@ MonoBehaviour:
   rightCameraLimit: 8.54
   lowerCameraLimit: 6.52
   upperCameraLimit: 12.61
+  Zpos: -30
 --- !u!1 &539983723 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8661575991155446802, guid: 0c94dfdd2ef334c41bb62317f5870bd4, type: 3}
@@ -489,6 +490,14 @@ PrefabInstance:
     - target: {fileID: 2494238112573005443, guid: d96143106b0347942b570c59208db961, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2778184392999998588, guid: d96143106b0347942b570c59208db961, type: 3}
+      propertyPath: speed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2778184392999998588, guid: d96143106b0347942b570c59208db961, type: 3}
+      propertyPath: sprintSpeedBonus
+      value: 150
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

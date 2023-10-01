@@ -21,7 +21,7 @@ public class SetLevel : MonoBehaviour
         }
     }
 
-    public void OnCollisionEnter (Collision other)
+    public void SetPlayer()
     {
         var player = GameObject.FindWithTag("Player").transform;
         if (player != null)
