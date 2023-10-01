@@ -108,7 +108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7215219054119844619}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.09, y: 1.97, z: 0}
+  m_LocalPosition: {x: 0.09, y: 1.57, z: 0}
   m_LocalScale: {x: 0.15, y: 0.15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -198,19 +198,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6100261832652627235, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6100261832652627235, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.29
+      value: 0.258996
       objectReference: {fileID: 0}
     - target: {fileID: 6100261832652627235, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.158
+      value: 0.072557926
       objectReference: {fileID: 0}
     - target: {fileID: 6100261832652627235, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.15
+      value: -11.056414
       objectReference: {fileID: 0}
     - target: {fileID: 6100261832652627235, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
       propertyPath: m_LocalRotation.w
@@ -295,7 +295,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30c6d7c0200175c46813792fa3c00323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  _sprintKey: 304
+  speed: 100
+  sprintSpeedBonus: 150
   animator: {fileID: 0}
   physicsBody: {fileID: 7089398526736736014}
   spriteRenderer: {fileID: 6360195965183923410}

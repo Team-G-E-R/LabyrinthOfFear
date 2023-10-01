@@ -1,0 +1,86 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+public class NoteManager : MonoBehaviour
+{
+    [SerializeField] public float duration;
+    [SerializeField] public float FadeValue1;
+    [SerializeField] public float FadeValue2;
+    public GameObject InterractIcon;
+    public Image noteImageUI;
+    public GameObject FnotePanalUI;
+    public GameObject SnotePanalUI;
+    public GameObject readButtonUI;
+    public TMP_Text noteTextUI;
+    private float currentTime;
+
+    
+    
+    private void Start()
+    {
+        FnotePanalUI.SetActive(false);
+        SnotePanalUI.SetActive(false);
+    }
+
+    public void FirstStageOpen(string textNote, Sprite Image)
+    {
+        Image FirstPanelImg=FnotePanalUI.GetComponent<Image>();
+        FirstPanelImg.color = new Color(FirstPanelImg.color.r, FirstPanelImg.color.g, FirstPanelImg.color.b, 0);
+        Time.timeScale=0f;
+        readButtonUI.SetActive(true);
+        InterractIcon.SetActive(false);
+        FnotePanalUI.SetActive(true);
+        noteImageUI.sprite=Image;
+        noteTextUI.text=textNote;
+        StartCoroutine(FadeInCrt(FirstPanelImg,FadeValue1));
+        Debug.Log("k");
+    }
+
+    public void SecondStageOpen()
+    {
+        SnotePanalUI.SetActive(true);
+        readButtonUI.SetActive(false);
+        Image SecondPanelImg=SnotePanalUI.GetComponent<Image>();
+        StartCoroutine(FadeInCrt(SecondPanelImg,FadeValue2));
+    }
+
+    public void CloseNote()
+    {
+        Time.timeScale=1f;
+        InterractIcon.SetActive(true);
+        FnotePanalUI.SetActive(false);
+        SnotePanalUI.SetActive(false);
+    }
+
+    private IEnumerator FadeInCrt(Image noteImageUI, float FadeValue)
+    {
+        while (currentTime < duration)
+        {
+            float alpha = Mathf.Lerp(0f, FadeValue, currentTime / duration);
+            noteImageUI.color = new Color(noteImageUI.color.r, noteImageUI.color.g, noteImageUI.color.b, alpha);
+            currentTime += Time.unscaledDeltaTime;
+            yield return null;
+        }
+
+        currentTime = 0;
+        yield break;
+    }
+
+    private IEnumerator FadeOutCrt(Image noteImageUI)
+    {
+        while (currentTime < duration)
+        {
+            float alpha = Mathf.Lerp(1f, 0f, currentTime / duration);
+           noteImageUI.color = new Color(noteImageUI.color.r, noteImageUI.color.g, noteImageUI.color.b, alpha);
+            currentTime += Time.deltaTime;
+            yield return null;
+        }
+
+        currentTime = 0;
+        yield break;
+    }
+}

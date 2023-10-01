@@ -6,15 +6,17 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
-    private bool isMenuActive=false;
+    private bool isMenuActive = false;
     [SerializeField] KeyCode KeyToActivateMenu;
     [SerializeField] int mainMenuSceneIndex;
+
 
     private void Start ()
     {
         pauseMenu.SetActive(false);
         
     }
+    
     private void Update()
     {
         if (Input.GetKeyDown(KeyToActivateMenu))
@@ -29,28 +31,25 @@ public class PauseMenu : MonoBehaviour
         isMenuActive=!isMenuActive;
         
         if (isMenuActive)
-            {
+        {
                 pauseMenu.SetActive(true);
-                Time.timeScale=0f;
-            }
-            else
-            {
+                Time.timeScale = 0f;
+        }
+        else
+        {
                 pauseMenu.SetActive(false);
-                Time.timeScale=1f;
-                
-            }
-
-        
+                Time.timeScale = 1f;
+        }
     }
 
     public void continueButton()
     {
         MenuActive();
     }
+    
     public void mainMenuButton()
     {
-        Debug.Log("SceneChange");
-        /* SceneManager.LoadScene(mainMenuSceneIndex); */
+        SceneManager.LoadScene(mainMenuSceneIndex);
+        Time.timeScale = 1f;
     }
-    
 }

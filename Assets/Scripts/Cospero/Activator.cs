@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Activator : MonoBehaviour
 {
    private bool isInRange;
-   public KeyCode InteractKey;
+   public KeyCode InteractKey = KeyCode.E;
    /* public UnityEvent InteractAction; */
    private GameObject InteractItem;
    [SerializeField] GameObject inputButtonImage;
