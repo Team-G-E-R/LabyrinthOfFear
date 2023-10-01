@@ -454,7 +454,7 @@ MonoBehaviour:
   _sprintKey: 304
   speed: 100
   sprintSpeedBonus: 150
-  animator: {fileID: 0}
+  animator: {fileID: 539010610}
   physicsBody: {fileID: 539010606}
   spriteRenderer: {fileID: 539010607}
 --- !u!114 &539010604
@@ -2025,19 +2025,23 @@ PrefabInstance:
       objectReference: {fileID: 1153406875, guid: 4e1bdab081ac52746800df03fac5605f, type: 3}
     - target: {fileID: 3870712708607421998, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
       propertyPath: m_Size.x
-      value: 0.58827585
+      value: 0.69088405
       objectReference: {fileID: 0}
     - target: {fileID: 3870712708607421998, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
       propertyPath: m_Size.y
-      value: 1.2303642
+      value: 1.2971897
       objectReference: {fileID: 0}
     - target: {fileID: 3870712708607421998, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
       propertyPath: m_Center.x
-      value: -0.05669999
+      value: -0.06812139
       objectReference: {fileID: 0}
     - target: {fileID: 3870712708607421998, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
       propertyPath: m_Center.y
-      value: -0.069339685
+      value: -0.016945718
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078805219066210838, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6100261832652627235, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
       propertyPath: m_RootOrder
@@ -2057,11 +2061,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6100261832652627235, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.239
+      value: 5.14
       objectReference: {fileID: 0}
     - target: {fileID: 6100261832652627235, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.98
+      value: -9.489
       objectReference: {fileID: 0}
     - target: {fileID: 6100261832652627235, guid: 28240ab6557733c4191a47cc2b320807, type: 3}
       propertyPath: m_LocalRotation.w

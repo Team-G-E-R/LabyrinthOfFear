@@ -5,11 +5,6 @@ namespace Common.Scripts
 {
     public class movement : MonoBehaviour
     {
-        #region Constants
-
-        private static readonly int WALK_PROPERTY = Animator.StringToHash("Walk");
-
-        #endregion
 
         #region Inspector
 
@@ -18,8 +13,7 @@ namespace Common.Scripts
         [SerializeField] private float sprintSpeedBonus = 50f;
 
         [Header("Relations")]
-        [SerializeField]
-        private Animator animator = null;
+        public Animator animator;
 
         [SerializeField]
         private Rigidbody physicsBody = null;
@@ -46,10 +40,14 @@ namespace Common.Scripts
             float vertical = Input.GetAxisRaw("Vertical");
             float horizontal = Input.GetAxisRaw("Horizontal");
 
-            if (horizontal > 0)
-                spriteRenderer.flipX = false;
-            else if (horizontal < 0)
-                spriteRenderer.flipX = true;
+            animator.SetFloat("Horizontal", horizontal);
+            animator.SetFloat("Vertical", vertical);
+            animator.SetFloat("Speed", _movement.sqrMagnitude);
+
+            //if (horizontal > 0)
+            //    spriteRenderer.flipX = false;
+            //else if (horizontal < 0)
+            //    spriteRenderer.flipX = true;
 
             _movement = new Vector3(horizontal, 0, vertical).normalized;
         }
