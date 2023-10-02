@@ -68,9 +68,9 @@ public class PauseMenu : MonoBehaviour
         {
 
             _soundVolume.onValueChanged.AddListener((v) => _audioSource.volume = v);
-            
-            
-            
+
+
+
             Cursor.visible = true;
             pauseMenu.SetActive(true);
             Time.timeScale = 0f;
@@ -86,14 +86,23 @@ public class PauseMenu : MonoBehaviour
     public void continueButton()
     {
         var audioService = FindObjectOfType<AudioService>();
-        MenuActive(audioService);
+        if (audioService != null)
+        {
+            MenuActive(audioService);   
+        }
+        else
+        {
+            MenuActive2();
+        }
     }
     
     public void mainMenuButton()
     {
-        var audioServiceToDelete = FindObjectOfType<AudioService>();
-        Destroy(audioServiceToDelete.gameObject);
-
+        var audioService = FindObjectOfType<AudioService>();
+        if (audioService != null)
+        {
+            Destroy(audioService.gameObject);   
+        }
         SceneManager.LoadScene(mainMenuSceneIndex);
         Time.timeScale = 1f;
     }

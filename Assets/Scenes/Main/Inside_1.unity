@@ -2570,6 +2570,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 38838851717996340, guid: cc1959dcd732fcb4992825ac8fd108ac, type: 3}
+      propertyPath: speed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 38838851717996340, guid: cc1959dcd732fcb4992825ac8fd108ac, type: 3}
+      propertyPath: sprintSpeedBonus
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5704691859990741753, guid: cc1959dcd732fcb4992825ac8fd108ac, type: 3}
       propertyPath: m_Name
       value: Player our
@@ -3267,6 +3275,10 @@ PrefabInstance:
     - target: {fileID: 8969472970008216362, guid: 24b4d65350e27c848825140b0011086a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976307649959662968, guid: 24b4d65350e27c848825140b0011086a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 20.42273
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

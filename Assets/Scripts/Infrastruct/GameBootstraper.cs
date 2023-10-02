@@ -7,6 +7,7 @@ public class GameBootstraper : MonoBehaviour
 
     private void Awake()
     {
+        Cursor.visible = true;
         _gameFactory = new GameFactory();
         _allServices = new AllServices();
 

@@ -18,7 +18,7 @@ public class DynamicText : MonoBehaviour
 
         StopAllCoroutines();
 
-        if (_output.text.Length != _currentText.Data.Length)
+        if (_currentText != null && _output.text.Length != _currentText.Data.Length)
         {
             _output.text = _currentText.Data;
             return;
