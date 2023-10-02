@@ -8,9 +8,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1323811956146148976, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 4431
+      objectReference: {fileID: 0}
     - target: {fileID: 2393864482938689905, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
       propertyPath: _targetSceneName
-      value: Inside_1
+      value: SampleScene
       objectReference: {fileID: 0}
     - target: {fileID: 2406519075825548996, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
       propertyPath: m_Name
@@ -24,6 +28,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -16.483
       objectReference: {fileID: 0}
+    - target: {fileID: 5770932361067578110, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 8941
+      objectReference: {fileID: 0}
     - target: {fileID: 6866999006177205270, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -34,19 +42,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.87
+      value: 34.979324
       objectReference: {fileID: 0}
     - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.36
+      value: -10.43
       objectReference: {fileID: 0}
     - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.71
+      value: 14.82
       objectReference: {fileID: 0}
     - target: {fileID: 8884782820454193335, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -88,6 +96,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1996733399046725043}
   m_SourcePrefab: {fileID: 100100000, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+--- !u!1 &579306904614203246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2406519075825548996, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+  m_PrefabInstance: {fileID: 2985799511588049322}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4906422489609849457 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7888245599874800603, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
@@ -108,7 +121,7 @@ MonoBehaviour:
   InteractAction:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2393864482938689905, guid: a7a30bb1a1d759f42b02b801cc68ba6d, type: 3}
+      - m_Target: {fileID: 579306904614203246}
         m_TargetAssemblyTypeName: SetLevel, Assembly-CSharp
         m_MethodName: SetPlayer
         m_Mode: 1

@@ -443,13 +443,13 @@ MonoBehaviour:
   InteractAction:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1040798578903218218, guid: ea9e61bec2e75a946bb7822ab5b6c2dc, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
+      - m_Target: {fileID: 3860319615290896279}
+        m_TargetAssemblyTypeName: SetLevel, Assembly-CSharp
+        m_MethodName: SetPlayer
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -521,7 +521,7 @@ Transform:
   - {fileID: 4315347579015486579}
   - {fileID: 5130974615370029747}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3860319615290896279
 MonoBehaviour:
