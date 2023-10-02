@@ -25,7 +25,14 @@ public class PauseMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyToActivateMenu))
         {
             var audioService = FindObjectOfType<AudioService>();
-            MenuActive(audioService);
+            if (audioService != null)
+            {
+                MenuActive(audioService);   
+            }
+            else
+            {
+                MenuActive2();
+            }
         }
     }
 
@@ -37,6 +44,29 @@ public class PauseMenu : MonoBehaviour
         {
             _audioSource = audioService.AudioSource;
             
+            _soundVolume.onValueChanged.AddListener((v) => _audioSource.volume = v);
+            
+            
+            
+            Cursor.visible = true;
+            pauseMenu.SetActive(true);
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            pauseMenu.SetActive(false);
+            Time.timeScale = 1f;
+            Cursor.visible = false;
+        }
+    }
+    
+    private void MenuActive2()
+    {
+        isMenuActive=!isMenuActive;
+
+        if (isMenuActive)
+        {
+
             _soundVolume.onValueChanged.AddListener((v) => _audioSource.volume = v);
             
             
