@@ -696,6 +696,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &307898142 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2056301875237077764, guid: c9a4aab0a663990418d18457e5b2adfc, type: 3}
+  m_PrefabInstance: {fileID: 1465196827}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!320 &307898143 stripped
+PlayableDirector:
+  m_CorrespondingSourceObject: {fileID: 5221941561642275673, guid: c9a4aab0a663990418d18457e5b2adfc, type: 3}
+  m_PrefabInstance: {fileID: 1465196827}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &377644649
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,6 +1378,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &554696361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8793625135884896484, guid: 4cc045c84b1a5b14e8cf4d1921d0ade5, type: 3}
+  m_PrefabInstance: {fileID: 1127386744}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &569421753
 Mesh:
   m_ObjectHideFlags: 0
@@ -3547,6 +3568,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2309920807218416068, guid: 1e987accab4934541b78e8a884dbaeab, type: 3}
+      propertyPath: m_SceneBindings.Array.data[1].value
+      value: 
+      objectReference: {fileID: 307898142}
     - target: {fileID: 8727132630067524244, guid: 1e987accab4934541b78e8a884dbaeab, type: 3}
       propertyPath: m_Name
       value: Cutscene 2
@@ -3564,6 +3589,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2967287555473061183, guid: 4cc045c84b1a5b14e8cf4d1921d0ade5, type: 3}
+      propertyPath: director
+      value: 
+      objectReference: {fileID: 307898143}
+    - target: {fileID: 4460121746590086900, guid: 4cc045c84b1a5b14e8cf4d1921d0ade5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5567734928358102420, guid: 4cc045c84b1a5b14e8cf4d1921d0ade5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 204
+      objectReference: {fileID: 0}
     - target: {fileID: 7056027879364703080, guid: 4cc045c84b1a5b14e8cf4d1921d0ade5, type: 3}
       propertyPath: m_Name
       value: Text
@@ -3654,7 +3691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8537183954778194510, guid: 4cc045c84b1a5b14e8cf4d1921d0ade5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 125
+      value: 203.99997
       objectReference: {fileID: 0}
     - target: {fileID: 8793625135884896484, guid: 4cc045c84b1a5b14e8cf4d1921d0ade5, type: 3}
       propertyPath: m_IsActive
@@ -4369,11 +4406,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1411859715 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8648166748893859320, guid: 1e987accab4934541b78e8a884dbaeab, type: 3}
-  m_PrefabInstance: {fileID: 1116949816}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1416886058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4447,10 +4479,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cutscene Scripts
       objectReference: {fileID: 0}
+    - target: {fileID: 2056301875237077764, guid: c9a4aab0a663990418d18457e5b2adfc, type: 3}
+      propertyPath: m_Events.m_Events.Array.data[0].m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056301875237077764, guid: c9a4aab0a663990418d18457e5b2adfc, type: 3}
+      propertyPath: m_Events.m_Events.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RetrieveMovement
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056301875237077764, guid: c9a4aab0a663990418d18457e5b2adfc, type: 3}
+      propertyPath: m_Events.m_Events.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Activate
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221941561642275673, guid: c9a4aab0a663990418d18457e5b2adfc, type: 3}
+      propertyPath: m_SceneBindings.Array.data[0].value
+      value: 
+      objectReference: {fileID: 554696361}
     - target: {fileID: 6175765912006092792, guid: c9a4aab0a663990418d18457e5b2adfc, type: 3}
       propertyPath: Active
       value: 
-      objectReference: {fileID: 1411859715}
+      objectReference: {fileID: 554696361}
     - target: {fileID: 6175765912006092792, guid: c9a4aab0a663990418d18457e5b2adfc, type: 3}
       propertyPath: _director
       value: 
@@ -4459,6 +4507,10 @@ PrefabInstance:
       propertyPath: ActiveText
       value: 
       objectReference: {fileID: 1073511789}
+    - target: {fileID: 6175765912006092792, guid: c9a4aab0a663990418d18457e5b2adfc, type: 3}
+      propertyPath: SceneToLoad
+      value: Inside_1
+      objectReference: {fileID: 0}
     - target: {fileID: 7692117508449938601, guid: c9a4aab0a663990418d18457e5b2adfc, type: 3}
       propertyPath: m_RootOrder
       value: 3
