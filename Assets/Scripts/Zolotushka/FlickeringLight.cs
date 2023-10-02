@@ -31,13 +31,19 @@ public class FlickeringLight : MonoBehaviour
             if(flicker_ON)
             {
                 _light.intensity = start_intensity;
-                electro_sound.Pause();
                 flicker_ON = false;
+                if (electro_sound != null)
+                {
+                    electro_sound.Pause();   
+                }
             }
             else
             {
-                electro_sound.Play();
                 flicker_ON = true;
+                if (electro_sound != null)
+                {
+                    electro_sound.Play();   
+                }
             }
         }
     }

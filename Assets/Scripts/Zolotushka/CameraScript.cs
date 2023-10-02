@@ -28,19 +28,22 @@ public class CameraScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector3 startPos = transform.position;
-        Vector3 endPos = player.transform.position;
-        endPos.x += posOffSet.x;
-        endPos.y += posOffSet.y;
-        endPos.z = Zpos;
-        transform.position = Vector3.SmoothDamp(startPos, endPos, ref velocity, timeOffSet);
+        if (player != null)
+        {
+            Vector3 startPos = transform.position;
+            Vector3 endPos = player.transform.position;
+            endPos.x += posOffSet.x;
+            endPos.y += posOffSet.y;
+            endPos.z = Zpos;
+            transform.position = Vector3.SmoothDamp(startPos, endPos, ref velocity, timeOffSet);
 
-        transform.position = new Vector3
-        (
-            Mathf.Clamp(transform.position.x, leftCameraLimit, rightCameraLimit),
-            Mathf.Clamp(transform.position.y, lowerCameraLimit, upperCameraLimit),
-            transform.position.z
-        );
+            transform.position = new Vector3
+            (
+                Mathf.Clamp(transform.position.x, leftCameraLimit, rightCameraLimit),
+                Mathf.Clamp(transform.position.y, lowerCameraLimit, upperCameraLimit),
+                transform.position.z
+            );   
+        }
     }
 
     private void OnDrawGizmos()
