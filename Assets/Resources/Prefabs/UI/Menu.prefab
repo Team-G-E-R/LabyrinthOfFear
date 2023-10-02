@@ -37,7 +37,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0.0000019073059, y: 81.7}
+  m_AnchoredPosition: {x: 7, y: 130}
   m_SizeDelta: {x: 201.3419, y: 67.33209}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1568495013462800104
@@ -125,6 +125,18 @@ MonoBehaviour:
       - m_Target: {fileID: 3953443324355123947}
         m_TargetAssemblyTypeName: StartMenu, Assembly-CSharp
         m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6521311318174584282}
+        m_TargetAssemblyTypeName: MenuUiHide, Assembly-CSharp
+        m_MethodName: OnBtnClickHide
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -247,7 +259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -89, y: -79.8}
+  m_AnchoredPosition: {x: -57, y: -53}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5000002, y: 0.49999964}
 --- !u!222 &204686246318478512
@@ -568,6 +580,7 @@ GameObject:
   - component: {fileID: 1626024663652462497}
   - component: {fileID: 4173135915839475951}
   - component: {fileID: 3953443324355123947}
+  - component: {fileID: 6521311318174584282}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -676,6 +689,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _soundVolume: {fileID: 6055065231884123020}
   _startMenuSound: {fileID: 8300000, guid: 75496a2209fd5a04d917beffa1092e13, type: 3}
+--- !u!114 &6521311318174584282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8757809853898035415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0c0c1c35db27f4b8eddeeff841c0d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _menuPlay: {fileID: 211604080574690836}
+  _menuSlider: {fileID: 7182085890886031475}
+  _menuQuit: {fileID: 2647762580369936966}
 --- !u!1001 &8221534483892837246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -758,7 +786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3928436242378037667, guid: bbd55f66f074b3b4386cacaf53de359f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 34.5
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 3928436242378037667, guid: bbd55f66f074b3b4386cacaf53de359f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -807,9 +835,14 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2746962345439518962, guid: bbd55f66f074b3b4386cacaf53de359f, type: 3}
   m_PrefabInstance: {fileID: 8221534483892837246}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 7182085890886031475}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &7182085890886031475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1275406126956266253, guid: bbd55f66f074b3b4386cacaf53de359f, type: 3}
+  m_PrefabInstance: {fileID: 8221534483892837246}
+  m_PrefabAsset: {fileID: 0}
