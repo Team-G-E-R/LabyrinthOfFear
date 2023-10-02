@@ -61,6 +61,9 @@ public class PauseMenu : MonoBehaviour
     
     public void mainMenuButton()
     {
+        var audioServiceToDelete = FindObjectOfType<AudioService>();
+        Destroy(audioServiceToDelete.gameObject);
+
         SceneManager.LoadScene(mainMenuSceneIndex);
         Time.timeScale = 1f;
     }
