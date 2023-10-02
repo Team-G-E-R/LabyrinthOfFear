@@ -28,14 +28,15 @@ public class NoteManager : MonoBehaviour
 
     public void FirstStageOpen(string textNote, Sprite Image)
     {
-        Image FirstPanelImg=FnotePanalUI.GetComponent<Image>();
-        FirstPanelImg.color = new Color(FirstPanelImg.color.r, FirstPanelImg.color.g, FirstPanelImg.color.b, 0);
+        Cursor.visible = true;
         Time.timeScale=0f;
+        Image FirstPanelImg=FnotePanalUI.GetComponent<Image>();
         readButtonUI.SetActive(true);
         InterractIcon.SetActive(false);
         FnotePanalUI.SetActive(true);
         noteImageUI.sprite=Image;
         noteTextUI.text=textNote;
+        FirstPanelImg.color = new Color(FirstPanelImg.color.r, FirstPanelImg.color.g, FirstPanelImg.color.b, 0);
         StartCoroutine(FadeInCrt(FirstPanelImg,FadeValue1));
         Debug.Log("k");
     }
@@ -50,6 +51,7 @@ public class NoteManager : MonoBehaviour
 
     public void CloseNote()
     {
+        Cursor.visible = false;
         Time.timeScale=1f;
         InterractIcon.SetActive(true);
         FnotePanalUI.SetActive(false);

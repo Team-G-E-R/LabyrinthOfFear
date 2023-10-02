@@ -21,7 +21,7 @@ public class Activator : MonoBehaviour
    {    
         if((isInRange)&(Input.GetKeyDown(InteractKey)))
         {
-            
+            Debug.Log("1st stage");
            if ((InteractItem.TryGetComponent<Interactable>(out Interactable ob)))
            {
                 ob.Interact();
