@@ -31,6 +31,8 @@ public class CutsceneScripts : MonoBehaviour
 
     public void LoadingScene()
     {
+        var audioServiceToDelete = FindObjectOfType<AudioService>();
+        Destroy(audioServiceToDelete.gameObject);
         SceneManager.LoadScene(SceneToLoad);
     }
 
